@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: my.org.autotest.CSSSRLinkTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 86.872 sec <<< FAILURE!
+SoftLinkCheckingTest(my.org.autotest.CSSSRLinkTest)  Time elapsed: 63.639 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertFalse(Assert.java:64)
+	at org.junit.Assert.assertFalse(Assert.java:74)
+	at my.org.autotest.CSSSRLinkTest.SoftLinkCheckingTest(CSSSRLinkTest.java:70)
+
